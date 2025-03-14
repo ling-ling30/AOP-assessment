@@ -17,16 +17,7 @@ export default function Soal5General() {
         Apakah code typescript di atas sudah baik dan benar dalam penulisannya ?
       </p>
       <section className="border-2 border-white p-4">
-        Menggunakan any dalam TypeScript bukan praktik yang baik karena
-        menghilangkan fitur utama TypeScript, yaitu type safety. Dengan any,
-        TypeScript tidak akan memberikan peringatan jika terjadi kesalahan tipe,
-        sehingga memungkinkan bug seperti operasi yang tidak valid (5 +
-        &quot;`hello&quot;` menghasilkan &quot;`5hello&quot;` daripada error).
-        Selain itu, any membuat kode sulit dimengerti, menghilangkan manfaat
-        autocomplete, dan menyulitkan refactoring. Sebagai gantinya, gunakan
-        tipe eksplisit seperti number atau string, atau gunakan union type
-        (number | string) jika ingin mendukung beberapa tipe data dengan aturan
-        yang jelas.
+        <pre className="w-fit whitespace-break-spaces">{`Menggunakan any dalam TypeScript bukan praktik yang baik karena menghilangkan fitur utama TypeScript, yaitu type safety. Dengan any, TypeScript tidak akan memberikan peringatan jika terjadi kesalahan tipe, sehingga memungkinkan bug seperti operasi yang tidak valid (5 +hello menghasilkan 5hello daripada error). Selain itu, any membuat kode sulit dimengerti, menghilangkan manfaatautocomplete, dan menyulitkan refactoring. Sebagai gantinya, gunakantipe eksplisit seperti number atau string, atau gunakan union type(number | string) jika ingin mendukung beberapa tipe data dengan aturan yang jelas.`}</pre>
       </section>
     </div>
   );

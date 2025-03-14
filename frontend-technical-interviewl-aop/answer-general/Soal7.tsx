@@ -25,9 +25,9 @@ export default function Soal7General() {
       </pre>
       <p>Apakah pengguna useEffect diatas sudah baik dan benar ?</p>
       <section className="border-2 border-white p-4">
-        <pre className="w-fit">
+        <pre className="w-fit whitespace-break-spaces">
           {`Tidak benar.
-Penjelasan: Beberapa fungsi yang bersifat berketerusan dapat running di background yang menyebabkan peforma turun dan terjadi memory leak.
+Penjelasan: Beberapa fungsi yang bersifat berketerusan dapat running di background yang menyebabkan performa turun dan terjadi memory leak.
 contoh fungsi fungsi yang berkelanjutan umumnya adalah Event Listener atau setInterval. Ada pula beberapa contoh yang lebih kompleks seperti: Fetching API pada kasus tertentu, dan thirdparty library.`}
         </pre>
       </section>
